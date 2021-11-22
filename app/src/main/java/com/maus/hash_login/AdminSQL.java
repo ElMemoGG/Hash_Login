@@ -11,7 +11,7 @@ public class AdminSQL extends SQLiteOpenHelper{
 
     @Override
     public void onCreate(SQLiteDatabase db) {
-        db.execSQL("create table Registros(email varchar(50) primary key, password varchar(20))");
+        db.execSQL("create table Registros(email varchar(50) primary key, password varchar(50))");
     }
 
     @Override
