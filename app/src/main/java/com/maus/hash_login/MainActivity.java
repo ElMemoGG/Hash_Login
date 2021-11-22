@@ -17,4 +17,9 @@ public class MainActivity extends AppCompatActivity {
         Intent intent= new Intent(this, Sesion.class);
         startActivity(intent);
     }
+    public void registrar(View view){
+        Intent intent= new Intent(this, RegActivity2.class);
+        startActivity(intent);
+    }
+
 }

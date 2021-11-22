@@ -91,6 +91,19 @@
 
         </LinearLayout>
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Registrar"
+            android:layout_marginTop="28dp"
+            android:layout_gravity="center"
+            android:textSize="18dp"
+            android:textColor="@color/Registro"
+            android:onClick="registrar"
+            />
+
+
+
     </LinearLayout>
 
     <ImageView

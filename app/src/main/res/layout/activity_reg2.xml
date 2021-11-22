@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".RegActivity2">
+    tools:context=".RegActivity2"
+    android:theme="@style/Theme.Hash_Login.2">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -18,7 +19,7 @@
             <View
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@color/Theme"
+                android:background="@color/Registro"
                 />
             <TextView
                 android:layout_width="match_parent"
@@ -101,17 +102,22 @@
         app:srcCompat="@drawable/ic_action_user"
 
         />
+
     <Button
         android:id="@+id/BtnConfirmar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom"
         android:layout_margin="20dp"
-        android:backgroundTint="@color/Theme"
+        android:shape="rectangle"
+        android:padding="10dp"
+        android:backgroundTint="@color/Registro"
         android:text="Confirmar"
         android:textColor="@color/white"
-        android:background="@drawable/redondeo_button"
         android:textSize="20dp"
+        android:radius="20dp"
         />
+
+
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

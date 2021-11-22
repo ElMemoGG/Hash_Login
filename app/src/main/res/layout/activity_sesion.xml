@@ -30,6 +30,7 @@
                 app:srcCompat="@drawable/ic_keyboard_backspace"
                 android:layout_gravity="right"
                 android:onClick="Atras"
+
                 />
         </androidx.appcompat.widget.Toolbar>
 
@@ -60,7 +61,6 @@
             android:textSize="30dp"
             android:layout_marginTop="20dp"
             />
-
 
     </LinearLayout>
 
