@@ -11,7 +11,8 @@
         android:theme="@style/Theme.Hash_Login">
         <activity
             android:name=".RegActivity2"
-            android:exported="false" />
+            android:exported="false"
+            android:theme="@style/Theme.Hash_Login.2"/>
         <activity android:name=".Sesion" />
         <activity android:name=".MainActivity">
             <intent-filter>

@@ -43,12 +43,12 @@ public class RegActivity2 extends AppCompatActivity {
     }
 
     private void limpiar() {
-
         email.setText("");
         pwd.setText("");
     }
 
     public void cambiarMain (View view){
+        regUser();
         Intent intent = new Intent( this, MainActivity.class);
         startActivity(intent);
     }
