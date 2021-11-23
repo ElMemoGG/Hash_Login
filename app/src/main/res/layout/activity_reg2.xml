@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".RegActivity2"
+    android:theme="@style/Theme.Hash_Login.2">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -15,15 +16,15 @@
             android:layout_height="170dp"
             app:shape_arc_position="bottom"
             app:shape_arc_height="30dp">
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="@color/Theme"
-            />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/Registro"
+                />
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Iniciar sesión"
+                android:text="Registrar Usuario"
                 android:textSize="30dp"
                 android:textColor="@color/white"
                 android:gravity="center"
@@ -91,19 +92,6 @@
 
         </LinearLayout>
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Registrar"
-            android:layout_marginTop="28dp"
-            android:layout_gravity="center"
-            android:textSize="18dp"
-            android:textColor="@color/Registro"
-            android:onClick="registrar"
-            />
-
-
-
     </LinearLayout>
 
     <ImageView
@@ -114,20 +102,22 @@
         app:srcCompat="@drawable/ic_action_user"
 
         />
+
     <Button
         android:id="@+id/BtnConfirmar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom"
         android:layout_margin="20dp"
-        android:backgroundTint="@color/Theme"
-        android:onClick="Iniciar"
+        android:shape="rectangle"
+        android:padding="10dp"
+        android:backgroundTint="@color/Registro"
         android:text="Confirmar"
         android:textColor="@color/white"
-        android:background="@drawable/redondeo_button"
         android:textSize="20dp"
+        android:onClick="cambiarMain"
+        android:radius="20dp"
         />
-
 
 
 

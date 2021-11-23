@@ -30,6 +30,7 @@
                 app:srcCompat="@drawable/ic_keyboard_backspace"
                 android:layout_gravity="right"
                 android:onClick="Atras"
+
                 />
         </androidx.appcompat.widget.Toolbar>
 
@@ -40,6 +41,7 @@
         android:orientation="vertical"
         android:layout_margin="10dp">
     <TextView
+        android:id="@+id/Email_show"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Texto Ejemplo"
@@ -47,6 +49,7 @@
         android:layout_marginTop="70dp"/>
 
         <TextView
+            android:id="@+id/PasswordHas"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Texto Ejemplo"
@@ -54,13 +57,13 @@
             android:layout_marginTop="20dp"
             />
         <TextView
+            android:id="@+id/PasswordN"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Texto Ejemplo"
             android:textSize="30dp"
             android:layout_marginTop="20dp"
             />
-
 
     </LinearLayout>
 

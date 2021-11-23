@@ -4,12 +4,16 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/ic_candado"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_candado"
         android:supportsRtl="true"
         android:theme="@style/Theme.Hash_Login">
-        <activity android:name=".Sesion"></activity>
+        <activity
+            android:name=".RegActivity2"
+            android:exported="false"
+            android:theme="@style/Theme.Hash_Login.2"/>
+        <activity android:name=".Sesion" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
