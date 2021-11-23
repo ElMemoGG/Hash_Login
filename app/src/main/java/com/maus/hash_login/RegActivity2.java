@@ -30,7 +30,7 @@ public class RegActivity2 extends AppCompatActivity {
             try {
                 ContentValues reg = new ContentValues();
                 reg.put("email", email.getText().toString());
-                reg.put("password", pwd.getText().toString());
+                reg.put("password", HashingAlgorithm.hashing(pwd.getText().toString()));
                 db.insert("Registros", null, reg);
             }catch (Exception e){
                 Toast.makeText(getApplicationContext(), "No se realizo el registro", Toast.LENGTH_LONG).show();

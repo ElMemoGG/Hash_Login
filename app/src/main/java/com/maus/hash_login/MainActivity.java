@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
     public void Iniciar(View view){
         Consular();
         Toast.makeText(this, "toso bien "+  pwd.getText().toString()+"  "+Contrasena,Toast.LENGTH_LONG).show();
-        if (Contrasena.equals(pwd.getText().toString()) ){
+        if (Contrasena.equals(HashingAlgorithm.hashing(pwd.getText().toString()))){
             Intent intent= new Intent(this, Sesion.class);
             intent.putExtra("1", correo);
             intent.putExtra("2", Contrasena);
