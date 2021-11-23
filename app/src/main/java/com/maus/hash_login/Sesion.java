@@ -22,7 +22,7 @@ public class Sesion extends AppCompatActivity {
         Bundle extras = getIntent().getExtras();
         email.setText(extras.getString("1"));
         passwordHash.setText(extras.getString("2"));
-        password.setText(extras.getString("2"));
+        password.setText(extras.getString("3"));
     }
     public void Atras(View view){
         Intent intent= new Intent(this, MainActivity.class);
